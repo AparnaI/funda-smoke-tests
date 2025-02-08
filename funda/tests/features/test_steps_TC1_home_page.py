@@ -1,6 +1,9 @@
+import pytest
 from pytest_bdd import scenario , given, when, then
 
 
+@pytest.mark.smoke
+@pytest.mark.regression
 @scenario('smoke_tests.feature', 'Homepage loads successfully')
 def test_homepage_loads_successfully():
     pass

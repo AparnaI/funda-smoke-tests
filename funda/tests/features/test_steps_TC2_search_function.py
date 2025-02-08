@@ -1,7 +1,8 @@
 from pytest_bdd import scenario, given, when, then, parsers
+import pytest
 
 
-
+@pytest.mark.smoke
 @scenario('smoke_tests.feature', 'Search functionality works')
 def test_search_functionality_works():
     pass

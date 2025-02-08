@@ -1,5 +1,5 @@
 [project]
-name = "funda-qa-automation"
+name = "funda"
 version = "0.1.0"
 description = "Automated smoke tests for Funda website"
 authors = [

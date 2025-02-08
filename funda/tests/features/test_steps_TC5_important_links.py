@@ -1,6 +1,8 @@
 from pytest_bdd import scenario, given, when, then, parsers
+import pytest
 
 
+@pytest.mark.smoke
 @scenario('smoke_tests.feature', 'Important links are working on homepage')
 def test_important_links():
     pass
